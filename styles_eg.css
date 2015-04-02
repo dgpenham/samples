@@ -1,0 +1,123 @@
+body {
+	color: #666666;
+	background-color: #FFFFFF;
+	background-image: url("");
+	background-position: center;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
+	padding: 10px;
+	margin: 0px;
+	position: center;
+}
+
+div.logo_container {
+	height: 90px;
+	width: 225px;
+	float: left;
+}
+
+nav {
+	text-transform: uppercase;
+	height: 90px;
+	position: relative;
+	top: 50%;
+	/*width: 960px;*/
+}
+
+li.nav {
+	/*float: left;*/
+	display: inline-block;
+/*	height: 90px;
+	width: 140px;
+	margin-right: 10px;*/
+	text-align: center;
+}
+
+/*a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 2;
+	height: 90px;
+	width: 140px;
+}
+*/
+
+/*
+img.logo-top {
+	height: 90px;
+	width: 255px;
+}*/
+
+
+/*wordy but functional*/
+
+a.nav-tile-a {
+	background-color: #1C2753;
+	/*test colors:*/
+	/*#555D7E*/
+	/*151D3E*/
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	font-size: 2;
+	height: 90px;
+	width: 180px;
+}
+
+/*not sure what the best color scheme is for the nav tiles...*/
+a.nav-tile-a:hover, a.nav-tile-a:active {
+	background-color: #555D7E;
+	color: #1C2753;
+}
+
+a.nav-tile-b {
+	background-color: #187695;
+	/*test colors:*/
+	/*#5298B0*/
+	/*125870*/
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 2;
+	height: 90px;
+	width: 180px;
+}
+
+a.nav-tile-b:hover, a.nav-tile-b:active {
+	background-color: #125870;
+}
+
+a.nav-tile-c {
+	display: block;
+	background-color: #EE4036;
+	/*test colors:*/
+	/*F27068*/
+	/*B23028*/
+	text-decoration: none;
+	font-size: 2;
+	color: #FFFFFF;
+	height: 90px;
+	width: 180px;
+}
+
+a.nav-tile-c:hover, a.nav-tile-c:active {
+	background-color: #B23028;
+}
+
+
+/*having some trouble with text overlay... have to figure out whether to use z-index or positioning or...?*/
+
+
+/*need specs on actual content*/
+li.movies {
+	display: inline-block;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
+
+li.foot-nav {
+	display: inline-block;
+	padding-right: 20px;
+}
